@@ -1,0 +1,199 @@
+*/
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+*/
+body{
+    background-color:gold ;
+    color: blue;
+
+    
+
+    font: lighter 10px Arial, Helvetica, 
+    sans-serif;
+
+    list-style: none;
+    margin: 1%;
+}
+
+.clr{
+    
+    clear: both;
+
+}
+
+.container{
+width: 80%;
+margin: auto;
+}
+.box-1{
+    background-color: aqua;
+    color: black;
+
+    border: 5px red solid;
+    padding-top: 20px;
+    
+}
+
+.box-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: oblique;
+    text-decoration: line-through;
+    text-transform: border;
+}
+
+.box-2{
+    border: 5px dotted black;
+    padding: 20px;
+    margin: auto;
+}
+
+.categories{
+border: 10px black;
+padding: 1%;
+border-radius: 15px;
+
+}
+
+.categories h2{
+text-align: center;
+
+}
+
+.categories ul{
+padding: 0%;
+padding-left: 20%;
+list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: blue;
+}
+
+
+a:visited{
+    color: none;
+}
+
+.categories li{
+ border-bottom: dotted green;
+ list-style-image: url('../images/check.png');
+    padding: 8px;
+}
+
+.my-form{
+padding: 20px;
+
+
+}
+
+my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form textarea{
+width: 100%;
+
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+padding: 5px;
+width: 100%;
+}
+
+.button {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px ;
+    border-radius: 7%;
+
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    padding: 15px 20px 20px;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+}
+
+#main-block{
+float: left;
+width: 70%;
+padding: 15px;
+box-sizing: border-box;
+
+}
+
+#sidebar{
+float: right;
+width: 30%;
+background-color: gray;
+color: aliceblue;
+padding: 15px;
+box-sizing: border-box;
+
+
+}
+
+.p-box{
+    border: solid 2px;
+    border-color: black;
+    background-image: url(../images/photo.jpeg);
+    width: 800px;
+    height: 500px;
+    margin-right: 10%;
+}
+.p-box h1{
+    position: relative;
+left: 300px;
+top: 200px;
+}
+
+.p-box h2{
+    position: relative;
+    bottom: -300px;
+    right: -300px;
+}
+
+.fixme{
+    position: fixed;
+top: 400px;
+}
+
+.My-list li:first-child{
+background: red;
+
+}
+.My-list :last-child{
+    background: blue;
+}
+
+.My-list :nth-child(5){
+background-color: blueviolet;
+
+}
+.My-list :nth-child(even){
+    background-color: gray;
+}
